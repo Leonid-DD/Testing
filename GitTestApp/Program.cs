@@ -32,6 +32,9 @@ namespace GitTestApp
             result = a / b;
             Console.WriteLine("{0} / {1} = {2}", a, b, result);
 
+            //Sin
+            Console.WriteLine(Math.Sin(a));
+
             Console.Read();
         }
     }
