@@ -35,6 +35,11 @@ namespace GitTestApp
             //Inc
             a++;
             Console.WriteLine(a);
+            //Sin
+            Console.WriteLine(Math.Sin(a));
+
+            //Cos
+            Console.WriteLine(Math.Cos(a));
 
             Console.Read();
         }
